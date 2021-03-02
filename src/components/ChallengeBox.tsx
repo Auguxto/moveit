@@ -4,7 +4,7 @@ import { ChallengesContext } from '../contexts/ChallengesContext';
 import styles from '../styles/components/ChallengeBox.module.css'
 
 function ChallengeBox() {
-  const { activeChallenge, resetChallenge } = useContext(ChallengesContext);
+  const { activeChallenge, resetChallenge, completeChallenge } = useContext(ChallengesContext);
 
   return (
     <div className={styles.challangeBoxContainer}>
@@ -13,7 +13,7 @@ function ChallengeBox() {
           <header>Ganhe {activeChallenge.amount} xp</header>
 
           <main>
-            <img src={`icons/${activeChallenge.type}.svg`}/>
+            <img src={`icons/${activeChallenge.type}.svg`} />
             <strong>Novo desafio</strong>
             <p>
               {activeChallenge.description}
@@ -21,16 +21,17 @@ function ChallengeBox() {
           </main>
 
           <footer>
-            <button 
+            <button
               type="button"
               className={styles.challengeFailedButton}
               onClick={resetChallenge}
             >
               Falhei
             </button>
-            <button 
+            <button
               type="button"
               className={styles.challengeSucceededButton}
+              onClick={completeChallenge}
             >
               Completei
             </button>
@@ -38,14 +39,14 @@ function ChallengeBox() {
 
         </div>
       ) : (
-        <div className={styles.challengeNotActive}>
-          <strong>Finalize um ciclo para receber um desafio</strong>
-          <p>
-            <img src="icons/level-up.svg" alt="Level Up"/>
+          <div className={styles.challengeNotActive}>
+            <strong>Finalize um ciclo para receber um desafio</strong>
+            <p>
+              <img src="icons/level-up.svg" alt="Level Up" />
             Avance de level completando desafios
           </p>
-        </div>
-      ) }
+          </div>
+        )}
     </div>
   );
 }
