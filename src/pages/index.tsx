@@ -13,7 +13,6 @@ import { CountdownProvider } from "../contexts/CountdownContext";
 import { ChallengesProvider } from '../contexts/ChallengesContext';
 
 export default function Home(props) {
-  console.log(props);
   return (
     <ChallengesProvider level={props.level} currentExperience={props.currentExperience} challengesCompleted={props.challengesCompleted} >
       <div className={styles.container}>
