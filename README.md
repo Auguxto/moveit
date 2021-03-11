@@ -32,7 +32,8 @@ Projeto Move.it realizado no Next Level Week#4 da Rocketseat, com React.js e Nex
 
 ### O App ja esta na vercel ![coração](https://user-images.githubusercontent.com/62861636/110835114-264c7580-827d-11eb-9fef-e8ac9fe51714.png)
 
-https://moveit-auguxto.vercel.app/ 
+<a href="https://moveit-auguxto.vercel.app/" target="_blank" />
+
 
 <img width="80%" src="https://user-images.githubusercontent.com/62861636/110842862-66fcbc80-8286-11eb-99a7-fbfa170c6b69.png" />
 <img width="80%" src="https://user-images.githubusercontent.com/62861636/110844540-4b92b100-8288-11eb-9e72-1ab0880c46af.png" />
