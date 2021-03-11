@@ -7,7 +7,8 @@ Projeto Move.it realizado no Next Level Week#4 da Rocketseat, com React.js e Nex
 ### Técnica de Pomodoro
 
 <p>
-  A Técnica Pomodoro é um método de gerenciamento de tempo desenvolvido por Francesco Cirillo no final dos anos 1980. A técnica consiste na utilização de um         cronômetro para dividir o trabalho em períodos de 25 minutos, separados por breves intervalos, assim aumentando o foco e a agilidade mental
+  O Move.it é um App que utiliza a técnica de pomodoro, com o objetivo de melhorar sua produtividade e foco.<br>
+  A Técnica Pomodoro é um método de gerenciamento de tempo desenvolvido por Francesco Cirillo no final dos anos 1980. A técnica consiste na utilização de um         cronômetro para dividir o trabalho em períodos de 25 minutos, separados por breves intervalos.
 </p>
 
 ### Tecnologias
