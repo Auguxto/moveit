@@ -2,13 +2,13 @@
 Este projeto foi criado usando o [Next.js](https://nextjs.org/)
 <br>
 
+Projeto Move.it realizado no Next Level Week#4 da Rocketseat, com React.js e Next.js
+
 ### Técnica de Pomodoro
 
 <p>
   A Técnica Pomodoro é um método de gerenciamento de tempo desenvolvido por Francesco Cirillo no final dos anos 1980. A técnica consiste na utilização de um         cronômetro para dividir o trabalho em períodos de 25 minutos, separados por breves intervalos, assim aumentando o foco e a agilidade mental
 </p>
-
-Projeto Move.it realizado no Next Level Week#4 da Rocketseat, com React.js e Next.js
 
 ### Tecnologias
 
